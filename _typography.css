@@ -1,0 +1,48 @@
+.text-small {
+    font-size: var(--t-14);
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.text-medium {
+    margin: 24px 0px;
+    font-size: var(--t-16);
+    font-family: var(--font-family-poppins);
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.text-base {
+    font-size: var(--t-16);
+    font-family: var(--font-family-poppins);
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.text-large {
+    font-size: var(--t-18);
+    font-family: var(--font-family-poppins);
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.text-2xl {
+    font-size: var(--t-24);
+    font-family: var(--font-family-poppins);
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.text-branco {
+    color: var(--cor-branca);
+}
+
+.text-preto {
+    color: var(--cor-preta);
+}
+
+.titulo_principal {
+    font-size: 48px;
+    font-family: var(--font-family-merienda);
+}

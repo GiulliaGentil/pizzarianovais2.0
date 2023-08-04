@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+ul, li  {
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 0px 16px;
+}
+
+.logotipo {
+    width: 96px;
+    height: 96px;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    z-index: 2;
+    background-color: red;
+}
+
+@media (max-width: 700px) {
+    .menu {
+        display: none;
+    }
+}
