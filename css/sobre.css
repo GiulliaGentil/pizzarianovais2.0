@@ -1,0 +1,45 @@
+.sobre {
+    width: 100%;
+    height: 90vh;
+    background-color: #F8F8FF;
+    font-size: 48px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-top: 45px;
+
+}
+
+#titulo{
+    padding-top: 20px;
+    padding-left: 60px;
+    color: #da582f;
+    font-size: 45px;
+    font-family: var(--font-family-merienda);
+}
+
+.teste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#texto {
+    font-family: 'Poppins';
+    font-size: 18px;
+    width:50%;
+    margin-left: 25px;
+}
+
+#fachada1 {
+    width: 40%;
+    height: 400px;
+    padding: 30px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    border-radius: 17%;
+
+}
+
+

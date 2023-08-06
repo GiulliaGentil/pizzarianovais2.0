@@ -1,0 +1,12 @@
+.contato{
+    width: 101%;
+    height: 90vh;
+    background-color: #da582f;
+    font-size: 38px;
+    font-family: var(--font-family-merienda);
+    padding-left: 40px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+

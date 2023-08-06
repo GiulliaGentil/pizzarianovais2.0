@@ -6,6 +6,7 @@
     <title>Pizzaria Novais</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="formu.css">
 </head>
 <body>
     <header>
@@ -57,24 +58,52 @@
                 <p class="text-base">R$50,00</p>
             </div>
         </section>
-      <div id="sobre">
-        <h1 class="titulo">Conheça nossa história</h1>
+      <div class="sobre">
+        <h1 id="titulo">Conheça nossa história</h1>
         <div class="teste">
-            <div class="texto">Novais é uma pizzaria fundada em 1975 por Kaian Novais, um jovem sonhador, e descendente de italiano. Com uma receita de massa secreta de família, a pizzaria logo se tornou popular entre os moradores locais, oferecendo pizzas autênticas com ingredientes frescos e de alta qualidade. Ao longo dos anos, a pizzaria expandiu-se para outras localidades, mantendo sempre seu compromisso com a qualidade e o atendimento ao cliente. A história da pizzaria Novais é marcada por uma jornada de paixão e dedicação, tornando-se uma das melhores na região.</div>
+            <div id="texto">Novais é uma pizzaria fundada em 1975 por Kaian Novais, um jovem sonhador, e descendente de italiano. Com uma receita de massa secreta de família, a pizzaria logo se tornou popular entre os moradores locais, oferecendo pizzas autênticas com ingredientes frescos e de alta qualidade. Ao longo dos anos, a pizzaria expandiu-se para outras localidades, mantendo sempre seu compromisso com a qualidade e o atendimento ao cliente. A história da pizzaria Novais é marcada por uma jornada de paixão e dedicação, tornando-se uma das melhores na região.</div>
             <img id="fachada1" src="./imagens/fachada.jpg" alt="">
         </div>
       </div>
 
       <div class="maps">
             <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.6679832843033!2d-46.572739325898134!3d-23.65205856492821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43384eaa2dbf%3A0x8febae4d2cd96ac6!2sPizzaria%20Novais!5e0!3m2!1spt-BR!2sbr!4v1691169718891!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            <div class="conhecer">VENHA NOS CONHECER
+            <div id="conhecer">VENHA NOS CONHECER
                 <h3 id="tt">Venha saborear as melhores pizzas da cidade na nossa pizzaria! Temos uma ampla variedade de sabores irresistíveis preparados com ingredientes frescos e de qualidade. Além disso, oferecemos um ambiente aconchegante e atendimento excepcional. Não perca tempo e traga sua família e amigos para uma experiência deliciosa conosco! Esperamos por você!</h3>
             </div>
         </div>
+        <div class="fullCenter">
+            <div id="formulario">
+                <h1>ENTRE EM CONTATO</h1>
+                <form>
+                    <label for="name"></label>
+                    <input type="text" id="name" placeholder="NOME" class="textField"> 
 
+                    <label for="email"></label>
+                    <input type="email" id="email" placeholder="E-MAIL" class="textField">
+
+                    <label for="mensagem"></label>
+                    <input type="mensagem" id="mensagem" placeholder="MENSAGEM" class="textFieldmensagem">
+
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+        </div>
     </main>
     <footer>
-
+        <div class="rodapé">
+            <div>
+                <img id="logo" src="imagens/Logotipo pizzaria Novais.png" alt="">
+                <ul>
+                    <br><li><span class="lista">Cardápio</span></li>
+                    <br><li><span class="lista">Sobre</span></li>
+                    <br><li><span class="lista">Localização</span></li>
+                    <br><li><span class="lista">Contato</span></li>
+                    <br><li><span class="lista">Delivery</span></li>
+                </ul>
+            </div>
+        </div>
     </footer>
     <script src="./js/main.js"></script>
 </body>
