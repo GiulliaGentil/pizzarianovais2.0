@@ -1,19 +1,77 @@
 .rodapé{
     width: 100%;
-    height: 60vh;
+    height: 49vh;
     background-color: #da582f;
     font-size: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 50% 50% ;
 }
 
 
 #logo{
     width: 96px;
     height: 96px;
-    padding: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
 }
 
 .lista{
     font-family: 'Poppins';
     font-size: 15px;
     color: black;
+    
 }
+
+#coluna1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.minhalista{
+    line-height: 16.0px;
+    padding-left: 40px;
+}
+
+#coluna2{
+    line-height: 16.0px;
+    padding-top: 20px;
+}
+#coluna3{
+    line-height: 16.0px;
+}
+
+#receba{
+    font-family: 'Poppins';
+    color: black;
+    font-size: 17px;
+    padding-left: 60px;
+    padding-top: 40px;
+}
+
+#caixa{
+    padding-left: 47px;
+    padding-top: 10px;
+}
+
+.textFieldofertas{
+    width: 30vh;
+    height: 22px;
+}
+
+.redessociais {
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: black;
+    padding-top: 30px;
+    padding-left: 59px;
+}
+
+.lista1{
+    font-family: 'Poppins';
+    font-size: 15px;
+    padding-left: 59px;
+}
+
