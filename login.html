@@ -5,23 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria Novais</title>
     <script src="https://unpkg.com/@rive-app/canvas@2.1.0"></script>
+    <link rel="stylesheet" href="./css/main.css">
 
 </head>
 <body>
-    <canvas id="canvas" width="500" height="500"></canvas>
-    <h1>Hello Novais</h1>
+    <section class="formulario">
+        <canvas id="canvas" width="500" height="500"></canvas>
+        <div class="form">
+            <label for="email">E-mail</label>
+            <input id="email" type="email">
+            <label for="password">Senha</label>
+            <input id="senha" type="password">
+            <button onclick="verifica()">Entrar</button>
+        </div>
+    </section>
     <script>
         const r = new rive.Rive({
-            src: "pizzaa.riv",
+            src: "riv/pizzaa.riv",
             // Or the path to a public Rive asset
             // src: '/public/example.riv',
             canvas: document.getElementById("canvas"),
             autoplay: true,
-            stateMachines: "bumpy",
+            stateMachines: "Pizzas",
             onLoad: () => {
               r.resizeDrawingSurfaceToCanvas();
             },
         });
     </script>
+    <script src="./js/login.js"></script>
 </body>
 </html>
