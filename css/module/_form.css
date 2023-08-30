@@ -10,3 +10,16 @@ input{
     height: 24px;
     border-radius: 8px;
 }
+
+.lista {
+    width: 300px;
+    margin: auto;
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    padding: 16px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
